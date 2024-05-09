@@ -21,7 +21,7 @@
         <div>
             <form>
                 <label style="font-family: Arial, Helvetica, sans-serif; font-size: 20px;">Enter some text below</label> <br>
-                <textarea  cols="60" rows="15" style="margin-top: 2%; padding: 10px; font-size: 15px; font-family: Arial, Helvetica, sans-serif;" autofocus  id="usertext"></textarea><br>
+                <textarea  cols="60" rows="15" style="margin-top: 2%; padding: 10px; font-size: 15px; font-family: Arial, Helvetica, sans-serif;" autofocus  id="usertext" onkeypress="upadateTextInfo()"></textarea><br>
                 <button type="button" onclick="transformToUpperCase()">UPPERCASE</button>
                 <button type="button" onclick="transformToLowerCase()">LOWERCASE</button>
                 <button type="button" onclick="changeColor()">CHANGE COLOR</button>
